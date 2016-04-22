@@ -8,22 +8,39 @@
         android:layout_width="match_parent"
         android:id="@+id/linearLayout1"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-        <fragment
-            class="com.colorcloud.wifichat.DeviceListFragment"
-            android:id="@+id/frag_list"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toggle"
+            android:id="@+id/Tg"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tex"
+            android:layout_weight="0.43" />
+
+        <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-            <!-- Preview: layout=@layout/row_devices 
-            android:layout_height="@dimen/phone_list_height">
-            -->
-        </fragment>
-        <fragment
-            class="com.colorcloud.wifichat.DeviceDetailFragment"
-            android:id="@+id/frag_detail"
+            android:layout_height="wrap_content"
+            android:id="@+id/key"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <!-- Preview: layout=@layout/device_detail -->
-        </fragment>
+            android:layout_height="wrap_content"
+            android:id="@+id/value" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:id="@+id/b1"
+            android:layout_gravity="center_horizontal" />
+
     </LinearLayout>
 </LinearLayout>

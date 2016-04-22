@@ -18,13 +18,13 @@ import java.net.SocketException;
  */
 public class SpreadWord {
     Context mContext ;
-   int PORT =8080;
+    int PORT =8080;
     DatagramSocket socket;
     String data="this is data";
 
     SpreadWord(Context main)
     {
-     this.mContext=main;
+        this.mContext=main;
         try {
             socket = new DatagramSocket(PORT);
         } catch (SocketException e) {
@@ -54,14 +54,14 @@ public class SpreadWord {
     public void sendPacket() throws IOException {
 
         Log.e("word__","socket created "+socket.toString());
-            socket.setBroadcast(true);
-         InetAddress adr=getBroadcastAddress();
+        socket.setBroadcast(true);
+        InetAddress adr=getBroadcastAddress();
         Log.e("word__","adress  "+adr.toString());
         DatagramPacket packet = new DatagramPacket(data.getBytes(), data.length(),
-               adr, PORT);
+                adr, PORT);
         Log.e("word__","packet send:  "+packet.getAddress().toString());
-       try
-       {socket.send(packet);}catch (Exception e){ Log.e("word__","send packet failed  "+adr.toString());e.printStackTrace();}
+        try
+        {socket.send(packet);}catch (Exception e){ Log.e("word__","send packet failed  "+adr.toString());e.printStackTrace();}
         DatagramPacket packetRc=null;
         try
         {byte[] buf = new byte[1024]; packetRc = new DatagramPacket(buf, buf.length); socket.receive(packetRc);}catch (Exception e){ Log.e("word__","Receive packet failed  "+adr.toString());e.printStackTrace();}
@@ -81,10 +81,10 @@ public class SpreadWord {
     private class NetIO extends AsyncTask<String, Void, String> {
         @Override
         protected String doInBackground(String... params) {
-           {
+            {
                 try {
 
-                        sendPacket();
+                    sendPacket();
 
 
 
@@ -93,7 +93,7 @@ public class SpreadWord {
 
                     e.printStackTrace();
                 }
-           }
+            }
             return null;
         }
 

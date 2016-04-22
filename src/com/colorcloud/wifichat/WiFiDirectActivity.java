@@ -18,15 +18,26 @@ package com.colorcloud.wifichat;
 
 
 import android.app.Activity;
-
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.net.wifi.p2p.WifiP2pConfig;
+import android.net.wifi.p2p.WifiP2pDevice;
+import android.net.wifi.p2p.WifiP2pDeviceList;
+import android.net.wifi.p2p.WifiP2pInfo;
+import android.net.wifi.p2p.WifiP2pManager;
+import android.net.wifi.p2p.WifiP2pManager.ActionListener;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.util.Log;
-
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-
+import android.widget.Toast;
 
 
 
@@ -42,19 +53,13 @@ import java.util.ArrayList;
 public class WiFiDirectActivity extends Activity {
 
     public static final String TAG = "PTP_Activity";
-    
+
     SpreadWord word;
     boolean mHasFocus = false;
     private boolean retryChannel = false;
-    Button Toggle,b1;
-    TextView t1,t2;
+    Button Toggle;
     static TextView text;
-    String KeyVal;
-
-
-
-
-
+    WiFiServiceDiscovery Discoverer;
 
     public synchronized String readFromList(ArrayList list)
     {
@@ -71,23 +76,23 @@ public class WiFiDirectActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.main);   // statically draw two <fragment class=>
+        Discoverer=new WiFiServiceDiscovery(this);
+        Discoverer.discoverService();
+
         Toggle =(Button)findViewById(R.id.Tg);
         text =(TextView) findViewById(R.id.tex);
-        b1=(Button)findViewById(R.id.b1);
-        t1=(EditText)findViewById(R.id.key);
-        t2=(EditText)findViewById(R.id.value);
-
         writeToTextView("+apples+");
 
         ServiceCreator loud = new ServiceCreator(this);
         ServiceDiscovery discover = new ServiceDiscovery(this);
         writeToTextView(readFromList(discover.ServiceList));
+
         word = new SpreadWord(this);
         Toggle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 try {
-                    //word.exec();
+                    word.exec();
                     writeToTextView(readFromList(discover.ServiceList));
                     Log.e("word__","spread init "+word);
                 }
@@ -98,24 +103,13 @@ public class WiFiDirectActivity extends Activity {
             }
         });
 
-        b1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                KeyVal=t1.getText().toString()+" "+t2.getText().toString();
-                writeToTextView(KeyVal);
-                t1.setText("");
-                t2.setText("");
-            }
-        });
-
 
 
 
 
     }
 
-    /** 
+    /**
      *
      */
     @Override
@@ -128,18 +122,49 @@ public class WiFiDirectActivity extends Activity {
     public void onPause() {
         super.onPause();
     }
-    
-	@Override
-	public void onStop() {  // the activity is no long visible
-		super.onStop();
-		mHasFocus = false;
-	}
+
+    @Override
+    public void onStop() {  // the activity is no long visible
+        super.onStop();
+        mHasFocus = false;
+    }
 
     @Override
     public void onDestroy() {
-    	super.onDestroy();
+        super.onDestroy();
 
     }
 
+    /**
+     * Remove all peers and clear all fields. This is called on
+     * BroadcastReceiver receiving a state change event.
+     */
+    private class LongOperation extends AsyncTask<String, Void, String> {
+        @Override
+        protected String doInBackground(String... params) {
+            for(int i=0;i<5;i++) {
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+            TextView txt = (TextView) findViewById(R.id.tex);
+            // txt.setText("Executed");
+            return null;
+        }
 
+        @Override
+        protected void onPostExecute(String result) {
+        }
+
+        @Override
+        protected void onPreExecute() {
+        }
+
+        @Override
+        protected void onProgressUpdate(Void... values) {
+        }
+    }
 }

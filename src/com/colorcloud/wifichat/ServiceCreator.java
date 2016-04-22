@@ -14,7 +14,7 @@ import java.net.ServerSocket;
 public class ServiceCreator {
     int port;
     Context appContext;
-    String serviceName="Asus_Love";
+    String serviceName="SammyLuv";
     String serviceType="_http._tcp.";
     ServiceCreator(Context app)
     {   appContext =app;

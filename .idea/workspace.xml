@@ -6,25 +6,34 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="wor" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="The" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2a62df1-2551-4953-a3eb-d686dc0e54d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiServiceDiscovery.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiDirectActivity$2.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/ServiceCreator$1.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/ServiceCreator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/R$id.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/R$layout.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/R$menu.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/R$string.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/ServiceCreator.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/ServiceCreator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiDirectActivity$1.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiDirectActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiDirectActivity$LongOperation.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiDirectActivity$LongOperation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiDirectActivity.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiDirectActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery$1.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery$2.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery$3.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery$4.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery$5.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery.class" afterPath="$PROJECT_DIR$/out/production/p2pCom/com/colorcloud/wifichat/WiFiServiceDiscovery.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/p2pCom.apk" afterPath="$PROJECT_DIR$/out/production/p2pCom/p2pCom.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/p2pCom/p2pCom.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/p2pCom/p2pCom.unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/colorcloud/wifichat/ServiceCreator.java" afterPath="$PROJECT_DIR$/src/com/colorcloud/wifichat/ServiceCreator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/colorcloud/wifichat/SpreadWord.java" afterPath="$PROJECT_DIR$/src/com/colorcloud/wifichat/SpreadWord.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiDirectActivity.java" afterPath="$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiDirectActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiServiceDiscovery.java" afterPath="$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiServiceDiscovery.java" />
     </list>
     <ignored path="p2pCom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,36 +55,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WiFiDirectActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WiFiDirectActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiDirectActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5841584">
+              <caret line="118" column="69" selection-start-line="118" selection-start-column="69" selection-end-line="118" selection-end-column="69" />
               <folding>
-                <element signature="e#0#4757#0" expanded="true" />
+                <element signature="e#0#5443#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#2120#2121#0" expanded="true" />
-                <element signature="e#2158#2159#0" expanded="true" />
-                <element signature="e#2219#2220#0" expanded="true" />
-                <element signature="e#2254#2255#0" expanded="true" />
-                <element signature="e#3560#3561#0" expanded="true" />
-                <element signature="e#3591#3592#0" expanded="true" />
+                <element signature="e#2190#2191#0" expanded="true" />
+                <element signature="e#2228#2229#0" expanded="true" />
+                <element signature="e#2289#2290#0" expanded="true" />
+                <element signature="e#2324#2325#0" expanded="true" />
+                <element signature="e#4246#4247#0" expanded="true" />
+                <element signature="e#4277#4278#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WiFiServiceDiscovery.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WiFiServiceDiscovery.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiServiceDiscovery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.583682">
-              <caret line="54" column="70" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="70" />
+            <state vertical-scroll-proportion="-10.555555">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
               <folding>
-                <element signature="e#2738#2754#0" expanded="true" />
-                <element signature="e#3250#3251#0" expanded="true" />
-                <element signature="e#3312#3313#0" expanded="true" />
-                <element signature="e#5600#5601#0" expanded="true" />
-                <element signature="e#5684#5685#0" expanded="true" />
+                <element signature="e#2765#2766#0" expanded="true" />
+                <element signature="e#2828#2829#0" expanded="true" />
+                <element signature="e#3268#3284#0" expanded="true" />
+                <element signature="e#3780#3781#0" expanded="true" />
+                <element signature="e#3842#3843#0" expanded="true" />
+                <element signature="e#6154#6155#0" expanded="true" />
+                <element signature="e#6238#6239#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/SpreadWord.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,7 +141,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/ServiceCreator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,17 +215,17 @@
         <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiDirectApp.java" />
         <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/FileTransferService.java" />
         <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/AnalyticsUtils.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/NsdServiceInfo.java" />
         <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/DnsSdTxtRecord.java" />
         <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/ServiceDiscovery.java" />
         <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/SpreadWord.java" />
-        <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/ServiceCreator.java" />
         <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/wifi.java" />
         <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/WifiDirect.java" />
-        <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiDirectActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/ServiceCreator.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiServiceDiscovery.java" />
+        <option value="$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiDirectActivity.java" />
       </list>
     </option>
   </component>
@@ -281,6 +292,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wifichat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="p2pCom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UltimateP2p" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="p2pCom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UltimateP2p" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -747,7 +790,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -765,7 +808,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271523" sideWeight="0.44635195" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21459228" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21459228" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32958803" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -832,14 +875,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
           <folding>
-            <element signature="e#0#4757#0" expanded="true" />
+            <element signature="e#0#5443#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
-            <element signature="e#2158#2159#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2254#2255#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
-            <element signature="e#3591#3592#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#4246#4247#0" expanded="true" />
+            <element signature="e#4277#4278#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -927,14 +970,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="89" column="22" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
           <folding>
-            <element signature="e#0#4757#0" expanded="true" />
+            <element signature="e#0#5443#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
-            <element signature="e#2158#2159#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2254#2255#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
-            <element signature="e#3591#3592#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#4246#4247#0" expanded="true" />
+            <element signature="e#4277#4278#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1022,14 +1065,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="156" column="4" selection-start-line="156" selection-start-column="4" selection-end-line="156" selection-end-column="4" />
           <folding>
-            <element signature="e#0#4757#0" expanded="true" />
+            <element signature="e#0#5443#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
-            <element signature="e#2158#2159#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2254#2255#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
-            <element signature="e#3591#3592#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#4246#4247#0" expanded="true" />
+            <element signature="e#4277#4278#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1118,14 +1161,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding>
-            <element signature="e#0#4757#0" expanded="true" />
+            <element signature="e#0#5443#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
-            <element signature="e#2158#2159#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2254#2255#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
-            <element signature="e#3591#3592#0" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#4246#4247#0" expanded="true" />
+            <element signature="e#4277#4278#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1177,17 +1220,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1220,26 +1252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/SpreadWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/ServiceCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/ServiceDiscovery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1250,33 +1262,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiDirectActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/SpreadWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="e#0#4757#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
-            <element signature="e#2158#2159#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-            <element signature="e#2254#2255#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
-            <element signature="e#3591#3592#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/ServiceCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiServiceDiscovery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.583682">
-          <caret line="54" column="70" selection-start-line="54" selection-start-column="66" selection-end-line="54" selection-end-column="70" />
+        <state vertical-scroll-proportion="-10.555555">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding>
-            <element signature="e#2738#2754#0" expanded="true" />
-            <element signature="e#3250#3251#0" expanded="true" />
-            <element signature="e#3312#3313#0" expanded="true" />
-            <element signature="e#5600#5601#0" expanded="true" />
-            <element signature="e#5684#5685#0" expanded="true" />
+            <element signature="e#2765#2766#0" expanded="true" />
+            <element signature="e#2828#2829#0" expanded="true" />
+            <element signature="e#3268#3284#0" expanded="true" />
+            <element signature="e#3780#3781#0" expanded="true" />
+            <element signature="e#3842#3843#0" expanded="true" />
+            <element signature="e#6154#6155#0" expanded="true" />
+            <element signature="e#6238#6239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/colorcloud/wifichat/WiFiDirectActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5841584">
+          <caret line="118" column="69" selection-start-line="118" selection-start-column="69" selection-end-line="118" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#5443#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2190#2191#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2289#2290#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
+            <element signature="e#4246#4247#0" expanded="true" />
+            <element signature="e#4277#4278#0" expanded="true" />
           </folding>
         </state>
       </provider>

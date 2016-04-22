@@ -16,6 +16,7 @@ import android.net.wifi.p2p.nsd.WifiP2pDnsSdServiceRequest;
 import android.os.Build;
 import android.util.Log;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,7 +35,7 @@ public class WiFiServiceDiscovery {
     public static final String TAG = "TheWord";
     // TXT RECORD properties
     public static final String TXTRECORD_PROP_AVAILABLE = "available";
-    public static final String SERVICE_INSTANCE = "_wifidemotest";
+    public static  String SERVICE_INSTANCE = "goodSammy";
     public static final String SERVICE_REG_TYPE = "_presence._tcp";
     public static final String Data = "DataString";
    // public static final int MESSAGE_READ = 0x400 + 1;
@@ -44,7 +45,7 @@ public class WiFiServiceDiscovery {
     private Channel channel;
     private BroadcastReceiver receiver = null;
     private WifiP2pDnsSdServiceRequest serviceRequest;
-
+    ArrayList<String> MessageList;
 
 
     /** Called when the activity is first created. */
@@ -53,16 +54,36 @@ public class WiFiServiceDiscovery {
        {
         manager=(WifiP2pManager) con.getSystemService(Context.WIFI_P2P_SERVICE);
            channel = manager.initialize(con, con.getMainLooper(), null);
-        startRegistrationAndDiscovery();
+           MessageList=new ArrayList<String>();
+          //startRegistrationAndDiscovery();
+           discoverService();
 
 
+    }
+
+    public void dicoverPeers()
+    {
+
+        manager.discoverPeers(channel,new WifiP2pManager.ActionListener(){
+
+            @Override
+            public void onSuccess() {
+                Log.i("word","peer Discovered");
+            }
+
+            @Override
+            public void onFailure(int reason) {
+
+            }
+        });
     }
     /**
      * Registers a local service and then initiates a service discovery
      */
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
-    public void startRegistrationAndDiscovery()
+    public void startRegistrationAndDiscovery(String Message)
     {
+        this.SERVICE_INSTANCE=Message;
         Log.i("word","Service starter in");
         Map<String, String> record = new HashMap<String, String>();
         record.put(TXTRECORD_PROP_AVAILABLE, "visible");
@@ -82,7 +103,7 @@ public class WiFiServiceDiscovery {
         });
 
 
-        discoverService();
+        //discoverService();
     }
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
 
@@ -99,12 +120,12 @@ public class WiFiServiceDiscovery {
                     public void onDnsSdServiceAvailable(String instanceName,
                                                         String registrationType, WifiP2pDevice srcDevice) {
                         // A service has been discovered. Is this our app?
+                        Log.i(TAG,"service Discovered non instance"+instanceName);
 
+                        MessageList.add(instanceName);
                         if (instanceName.equalsIgnoreCase(SERVICE_INSTANCE)) {
                             Log.i(TAG,"service Discovered"+instanceName);
 
-                            // update the UI and add the item the discovered
-                            // device.
 
                         }
                     }

@@ -36,6 +36,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -58,7 +59,9 @@ public class WiFiDirectActivity extends Activity {
     boolean mHasFocus = false;
     private boolean retryChannel = false;
     Button Toggle;
+    Button Add;
     static TextView text;
+    EditText message;
     WiFiServiceDiscovery Discoverer;
 
     public synchronized String readFromList(ArrayList list)
@@ -77,10 +80,14 @@ public class WiFiDirectActivity extends Activity {
 
         setContentView(R.layout.main);   // statically draw two <fragment class=>
         Discoverer=new WiFiServiceDiscovery(this);
-        Discoverer.discoverService();
+
 
         Toggle =(Button)findViewById(R.id.Tg);
+        Add =(Button)findViewById(R.id.b1);
+
         text =(TextView) findViewById(R.id.tex);
+        message =(EditText)findViewById(R.id.key);
+
         writeToTextView("+apples+");
 
         ServiceCreator loud = new ServiceCreator(this);
@@ -92,9 +99,25 @@ public class WiFiDirectActivity extends Activity {
             @Override
             public void onClick(View v) {
                 try {
-                    word.exec();
+                    //word.exec();
                     writeToTextView(readFromList(discover.ServiceList));
                     Log.e("word__","spread init "+word);
+
+                }
+                catch (NullPointerException e) {
+                    e.printStackTrace();
+                    Log.e("null","spread fail");
+                }
+            }
+        });
+        Add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Discoverer.startRegistrationAndDiscovery(message.getText().toString());
+                    message.setText("");
+                    writeToTextView(Discoverer.MessageList.toString());
+
                 }
                 catch (NullPointerException e) {
                     e.printStackTrace();

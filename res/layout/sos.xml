@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:text="SOS"
+        android:id="@+id/sosB1"
+        android:layout_x="-1dp"
+        android:layout_y="125dp" />
+
+    <Button
+        android:layout_width="215dp"
+        android:layout_height="75dp"
+        android:text="SOS assist"
+        android:id="@+id/button"
+        android:layout_x="80dp"
+        android:layout_y="289dp" />
+</AbsoluteLayout>
